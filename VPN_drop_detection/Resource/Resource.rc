@@ -1,0 +1,12 @@
+#include "windows.h"
+#include "resource.h"
+
+IDI_APP_ICON ICON "IP_icon.ico"
+
+IDR_TRAYMENU MENU
+	BEGIN
+		POPUP "Menu"
+		BEGIN
+			MENUITEM "Exit", IDM_EXIT
+		END
+	END
